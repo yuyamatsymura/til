@@ -1,6 +1,6 @@
 ## 変数についての問題で間違えていたところ(記録用：紫本41,42)
 
-```
+```java
 class Foo {
 	String str = "hello";
 }
@@ -17,7 +17,7 @@ Fooクラスの型のobjという参照型の変数ができる
 System.out.println(obj.str);
 ```
 
-```
+```java
 class Foo {
 	String str = "hello";
 }
@@ -43,7 +43,7 @@ Test.java:8: エラー: 変数objは初期化されていない可能性があ�
 
 変数宣言をするとき初期化をnullでしてみる
 
-```
+```java
 Foo obj = null;
 ```
 
@@ -56,7 +56,7 @@ NullPointerExceptionエラーが発生する
 *static変数を使用する方法がある*
 
 ### インスタンス化パターン
-```
+```java
 class Foo {
 	String str = "hello";
 }
@@ -79,7 +79,7 @@ hello
 
 
 ### static変数を使用するパターン
-```
+```java
 class Foo {
 	static String str = "hello";
 }
